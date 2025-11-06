@@ -2,8 +2,8 @@ import { IconShoppingCartSearch } from "@tabler/icons-react";
 export default function Hero() {
   return (
     <div className="h-screen bg-black text-white">
-      <div className="border scale-y-150 border-white p-4 font-instrumentalItalic text-4xl font-medium capitalize text-stone-400">
-      {/* <div className="border border-white p-4 font-instrumentalItalic text-4xl font-medium capitalize text-stone-400"> */}
+      {/* <div className="border scale-y-150 border-white p-4 font-instrumentalItalic text-4xl font-medium capitalize text-stone-400"> */}
+      <div className="border border-white p-4 font-instrumentalItalic text-4xl font-medium capitalize text-stone-400">
         <p>
           Your everyday <span className="text-stone-200">Glow</span>, in Silver
         </p>

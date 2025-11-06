@@ -25,6 +25,49 @@
 }
 
 
+  body{
+    background-color: black;
+  }
+
+
 /* *{
   box-sizing: border-box;
+} */
+
+/* .box {
+  animation-name: heading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+}
+
+.box1 {
+  animation-name: secondheading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+
+@keyframes heading {
+  from{
+    z-index: 1;
+      top: 0;
+  }
+  to{
+    z-index: 0;
+      top: 0;
+  }
+}
+
+@keyframes secondheading{
+  from{
+    z-index: 0;
+  }
+  to{
+    z-index: 1;
+  }
 } */
