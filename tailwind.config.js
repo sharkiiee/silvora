@@ -1,18 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        "xs-phone": '425px',
+      },
       fontFamily: {
-        giestRegular:['Giest-Regular', 'sans-serif'],
-        instrumentalRegular:['InstrumentalSerif-Regular', 'serif'],
-        instrumentalItalic:['InstrumentalSerif-Italic', 'serif'],
+        giestRegular: ["Giest-Regular", "sans-serif"],
+        instrumentalRegular: ["InstrumentalSerif-Regular", "serif"],
+        instrumentalItalic: ["InstrumentalSerif-Italic", "serif"],
       },
     },
   },
   plugins: [],
-}
-
+};
